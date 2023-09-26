@@ -1,11 +1,12 @@
 server:
   port: 8585
 spring:
+  liquibase:
+    enabled: true
   datasource:
     url: jdbc:postgresql://postgres:5432/projectdb
     username: postgres
     password: postgres
-
   jpa:
     generate-ddl: сreate 
     show-sql: true
