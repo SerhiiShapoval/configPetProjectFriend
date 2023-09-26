@@ -5,6 +5,9 @@ spring:
     url: jdbc:postgresql://postgres:5432/projectdb
     username: postgres
     password: postgres
+  sql:
+    init:
+      mode: always  
   jpa:
     generate-ddl: true
     show-sql: true
