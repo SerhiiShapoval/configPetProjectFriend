@@ -6,7 +6,7 @@ spring:
     username: postgres
     password: postgres
   jpa:
-    generate-ddl: validate
+    generate-ddl: true
     show-sql: true
     properties:
       hibernate:
