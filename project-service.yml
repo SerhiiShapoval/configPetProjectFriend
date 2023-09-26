@@ -2,14 +2,14 @@ server:
   port: 8585
 spring:
   liquibase:
-    enable: true
+    enabled: true
     change-log: classpath:/db/changelog/db.changelog-master.yaml
   datasource:
     url: jdbc:postgresql://postgres:5432/projectdb
     username: postgres
     password: postgres
   jpa:
-    generate-ddl: true
+    generate-ddl: validate
     show-sql: true
     properties:
       hibernate:
