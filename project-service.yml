@@ -9,7 +9,7 @@ spring:
     password: postgres
 
   jpa:
-    generate-ddl: none 
+    generate-ddl: сreate 
     show-sql: true
     properties:
       hibernate:
